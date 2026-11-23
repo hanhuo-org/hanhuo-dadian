@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+.pytest_cache/
+
+# Rust build artifacts
+**/target/
+
+# Large downloaded/generated weights, datasets, packs & local training workdirs
+shizi/release_artifacts/
+shizi/checkpoints/
+shizi/data/
+shizi/work/
+shizi/web/packs/
+shizi/web/wrangler.toml
+
+# Web runtime large binary chunks (installed via scripts/download_weights.py)
+shizi/web/dist/models_chunks/
+shizi/web/dist/vendor/ort/
+shizi/web/dist/assets/*.bin
+shizi/web/dist/assets/*.gz
+
+# OS / Editor
+.DS_Store
+.vscode/
+.idea/
