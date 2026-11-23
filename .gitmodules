@@ -1,0 +1,3 @@
+[submodule "shizi"]
+	path = shizi
+	url = https://github.com/hanhuo-org/shizi.git
