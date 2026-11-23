@@ -1,3 +1,6 @@
 [submodule "shizi"]
 	path = shizi
 	url = https://github.com/hanhuo-org/shizi.git
+[submodule "niyin"]
+	path = niyin
+	url = https://github.com/hanhuo-org/niyin.git
